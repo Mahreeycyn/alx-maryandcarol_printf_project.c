@@ -19,6 +19,7 @@ if (is_digit(format[curr_i]))
 {
 precision *= 10;
 precision += format[curr_i] - '0';
+}
 else if (format[curr_i] == '*')
 {
 curr_i++;
